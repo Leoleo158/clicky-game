@@ -38,3 +38,17 @@ class App extends Component {
     }
     return a;
   }
+
+  checkGuess = (name, cb) => {
+    const newState = { ...this.state };
+    if (newState.pickedChars.includes(name)) {
+      newState.alertMessage = `YOU ALREADY PICKED "${name.toUpperCase()}"!`
+      newState.pickedChars = []
+      this.setState(this.state = newState)
+    } else {
+      newState.pickedChars.push(name)
+      newState.alertMessage = `GOOD CHOICE!`
+      this.setState(this.state = newState)
+    }
+    cb(newState, this.alertWinner)
+  }
