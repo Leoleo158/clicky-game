@@ -52,3 +52,11 @@ class App extends Component {
     }
     cb(newState, this.alertWinner)
   }
+
+  updateTopScore = (newState, cb) => {
+    if (newState.pickedChars.length > newState.topScore) {
+      newState.topScore++
+      this.setState(this.state = newState)
+    }
+    cb(newState)
+  }
