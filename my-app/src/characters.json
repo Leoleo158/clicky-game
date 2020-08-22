@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "name": "Clone",
+        "image": "#"
+    },
+    {
+        "id": 2,
+        "name": "Anikan",
+        "image": "#"
+    },
+    {
+        "id": 3,
+        "name": "Obi-wan",
+        "image": "#"
+    },
+    {
+        "id": 4,
+        "name": "Grevious",
+        "image": "#"
+    },
+    {
+        "id": 5,
+        "name": "Jar Jar",
+        "image": "#"
+    },
+    {
+        "id": 6,
+        "name": "Pilot",
+        "image": "#"
+    },
+    {
+        "id": 7,
+        "name": "Clone Pilot",
+        "image": "#"
+    },
+    {
+        "id": 8,
+        "name": "Luke",
+        "image": "#"
+    },
+    {
+        "id": 9,
+        "name": "Padme",
+        "image": "#"
+    },
+    {
+        "id": 10,
+        "name": "Darth Vader",
+        "image": "#"
+    },
+    {
+        "id": 11,
+        "name": "Leia",
+        "image": "#"
+    },
+    {
+        "id": 12,
+        "name": "Han Solo",
+        "image": "#"
+    }
+
+]
