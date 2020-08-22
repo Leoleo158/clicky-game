@@ -60,3 +60,11 @@ class App extends Component {
     }
     cb(newState)
   }
+
+  alertWinner = (newState) => {
+    if (newState.pickedChars.length === 12) {
+      newState.alertMessage = "WINNER!";
+      newState.pickedChars = [];
+      this.setState(this.state = newState)
+    }
+  }
