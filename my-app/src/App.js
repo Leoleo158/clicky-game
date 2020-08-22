@@ -16,3 +16,14 @@ class App extends Component {
     topScore: 0,
     alertMessage: ""
   }
+
+  handlePicked = event => {
+
+    const name = event.target.attributes.getNamedItem("name").value;
+    this.shuffleCharacters()
+    this.checkGuess(name, this.updateTopScore)
+  }
+
+  shuffleCharacters = () => {
+    this.setState(this.state.characters = this.shuffleArray(this.state.characters))
+  }
